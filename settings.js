@@ -22,10 +22,10 @@ global.mess = {
     endLimit: '`Your daily limit has expired, the limit will be reset every 12 hours`',
 }
 
-global.owner = [process.env.OWNER_NUMBER] || ['94767248899'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
+global.owner = [process.env.OWNER_NUMBER] || ['94769667760'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
 
 module.exports = {    
-SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=yd8i0JIS#hXhpRIcF-5PnTjQDv6e3Wkb2AHSGQKiBqnpCKJplqMg',
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=6UVxEQhI#D3mNLuNQ5U7yn7S3BaCy45It2eTffhZaXo_-qC0qn-E',
 POSTGRESQL_URL: process.env.POSTGRESQL_URL || 'postgres://izumimd_meje_user:0Vhm5vKGZ7ORt2FlJBQf4d6EtRdeuE8z@dpg-cn0o2imn7f5s73fa46q0-a.frankfurt-postgres.render.com/izumimd_meje',
 PREFIX:  process.env.PREFIX || ['.'] ,
 LANG:  process.env.LANG || 'SI' ,    
@@ -39,7 +39,7 @@ ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,
 WORK_TYPE: process.env.WORK_TYPE || 'private'  ,
 ANTI_LINK: process.env.ANTI_LINK || false  ,
 ANTI_BOT: process.env.ANTI_BOT || false  ,
-OWNER_NUMBER: process.env.OWNER_NUMBER || '94767248899'  ,    
+OWNER_NUMBER: process.env.OWNER_NUMBER || '94769667760'  ,    
 ALIVE: process.env.ALIVE || `default`,
 OWNER_NAME: process.env.OWNER_NAME || 'Pramuditha' ,     
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
